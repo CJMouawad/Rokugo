@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class acceptanceletter {
+	
+	public static void main(String []args)
+	{
+	
+	Scanner in = new Scanner(System.in);
+	System.out.println("Please enter your GPA: ");
+	double gpa = in.nextDouble();
+	System.out.println("Please enter your number of credits: ");
+	double credits = in.nextDouble();
+	
+	if((gpa>=4.0)&&(credits>=60)) 
+	
+		System.out.println("Congratulations! You have been accepted into NYU's Tandon School of Engineering!");
+	else 
+		System.out.println("Unforunately, we could not offer you acceptance at this time.");
+
+}
+}
