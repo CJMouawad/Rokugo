@@ -20,7 +20,7 @@ public class SwitchDemo {
 					break;
 			case 84: seasonInt = ("Brr! You enjoy the snowy winters. Along the hills of St. Petersburg, Russia is where you can be found.");
 					break;
-			default: seasonInt = ("Sorry, please pick a number between 81-81!");
+			default: seasonInt = ("Sorry, please pick a number between 81-84!");
 					break;
 		}
 			System.out.println(seasonInt);
