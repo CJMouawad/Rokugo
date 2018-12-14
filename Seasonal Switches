@@ -6,7 +6,7 @@ public class SwitchDemo {
 	{
 		
 		Scanner in = new Scanner(System.in);
-		System.out.println("Good morning, sunshine! Select a number between 1-4 and I'll reveal where you will live by your favorite season: ");		
+		System.out.println("Good morning, sunshine! Select a number between 81-84 and I'll reveal where you will live by your favorite season: ");		
 		int season = in.nextInt();
 		
 		String seasonInt;
