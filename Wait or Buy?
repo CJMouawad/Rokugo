@@ -1,0 +1,26 @@
+package HelloWorld;
+import java.util.*;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.println("Price of the house you want: ");
+		double price = in.nextDouble();
+		System.out.println("Amount of money available to spend: ");
+		double amount = in.nextDouble();
+		
+		double downPayment = 0.2 * price;
+		
+		if (amount >= downPayment) {
+			System.out.println("It's a good idea to go ahead!");
+		}
+			else
+			{
+			System.out.println("Maybe wait a bit longer!");
+		}
+
+		
+	}
+
+}
